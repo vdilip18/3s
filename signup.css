@@ -1,0 +1,87 @@
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    height: 700px;
+    width: 100%;
+    background-color: beige;
+    background-image: url(login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 500px;
+    width: 900px;
+    border: 3px solid black;
+    background-color: antiquewhite;
+    box-shadow: inset 5px 0 10px red;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.rightlogin {
+    height: 100%;
+    width: 50%;
+    border-left: 3px black solid;
+}
+
+.leftlogin {
+    height: 100%;
+    width: 50%;
+   background-image: url(loginlogin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mail, .password ,.name{
+    transform: scale(1.1) translateY(70px);
+    align-items: flex-start;
+}
+
+button {
+    transform: scale(1.2) translate(90px, 110px);
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.icons {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    transform: translateY(190px);
+    justify-content: center;
+    
+}
+.icons img{
+    height: 30px;
+    width:30px;
+    object-fit:contain;
+    margin-right: 20px;
+}
+
+
